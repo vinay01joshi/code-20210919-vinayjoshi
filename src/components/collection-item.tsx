@@ -5,7 +5,7 @@ import Car from "../models/car";
 const CollectionItem: React.FunctionComponent<Car> = (car) => {
   return (
     <>
-      <Card style={{ width: "18rem" }}>
+      <Card style={{ width: "18rem", padding: "10px" }}>
         <Card.Img variant="top" src={car.image} />
         <Card.Body>
           <Card.Title>{car.name}</Card.Title>
