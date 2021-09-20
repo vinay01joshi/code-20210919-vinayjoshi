@@ -1,0 +1,1 @@
+export const GET_ALL_VEHICLE_MAKE = `${process.env.REACT_APP_API_URL}/vehicles/getallmakes`;
