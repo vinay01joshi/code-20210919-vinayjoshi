@@ -15,7 +15,6 @@ const CollectionItem: React.FunctionComponent<Car> = (car) => {
       </Card>
     </>
   );
-  // return <div> {car.name} </div>;
 };
 
 export default CollectionItem;
